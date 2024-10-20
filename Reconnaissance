@@ -1,0 +1,108 @@
+Directory Brute force and Finding Subdomains
+  • Dirsearch
+  • Gobuster
+  • Feroxbuster
+  • Google docking
+  • Sub finder link: https://github.com/projectdiscovery/subfinder.git
+  • Amass link: https://github.com/owasp-amass/amass.git
+  • Crt.sh link: https://github.com/az7rb/crt.sh
+Frameworks that are used in these scenarios
+  • Reconftw link: https://github.com/six2dez/reconftw.git
+  • Arsenal link: https://github.com/Orange-Cyberdefense/arsenal.git
+
+Filter live subdomains
+ After finding all sub domains we need to filter out which are active state.
+
+  • Httpx link: https://github.com/projectdiscovery/httpx.git
+  • Httprobe
+
+Eye witness
+  We can take screenshot of each and every running subdomain website and stored in image form and it will helps to look entire subdomains.
+
+  • Link https://github.com/RedSiege/EyeWitness.git
+
+Fuzzing
+ We want to try to enter the wrong format of input to analyze the behavior of the website and
+sometimes it may lead to a bug. For giving a parameter in the fuzzing we need a dedicated wordlist to perform the attack 
+for that purpose we will seclist to create a wordlist.
+
+  • Ffuf and Wfuzz
+  • Wappalyzer - to know what technology is used on that website
+  • Whatweb Kali Linux tool
+
+Port scanning
+ It will helps us to understand that in the port the website is
+hosted so by the port we can specify our attack.
+
+  • Nmap 
+  • Naabu
+
+Template-based scan
+ security template is a pre-defined format or structure used to write clear and comprehensive reports about discovered security
+vulnerabilities. 
+
+  • Nuclei link: https://github.com/projectdiscovery/nuclei.git to make
+    vulnerability scan
+  • Nessus
+
+Js analysis
+  We will try to understand the JavaScript version as well
+as which library is used to build that we will have an easy way to find the
+vulnerabilities based on the version they used to develop the website and
+there are chances where we will find API keys that are used for that website
+
+  • Secretfinder link: https://github.com/m4ll0k/SecretFinder.git
+  • Js link finder its one of the burp suite feature
+
+Way back URLs
+ It will help us to find at which time the website looked
+like there are chances like where they will not update some files or version
+on that website and it will potentially leads to a big bug for the
+organization.
+Wayback Url: https://wayback-api.archive.org/
+
+Data breach Analysis
+ There are chances data might get link in the
+organization but they were not aware about it. It might available in the dark
+web and some telegram channels and if u find it and report to organization
+you will have chance to get rewarded
+
+Google Dorking
+  Custom search queries that help you find specific information on the
+web.
+
+Subdomain Discovery: Use site:example.com -inurl:www to find subdomains on
+a website.
+
+Directory Discovery: Try site:example.com "index of" to uncover directories
+indexed by Google.
+
+File Discovery: Use site:example.com filetype:pdf to find PDF files on a website.
+Advanced Dorks: Uncovering Hidden Gems
+
+Vulnerability Detection: Use inurl:wp-admin to find WordPress administrative
+pages that might be vulnerable to attacks.
+
+Sensitive Data Discovery: Try site:example.com "password" to find pages
+containing the word "password".
+
+Error Message Detection: Use site:example.com "404 Not Found" to find pages
+with a 404 error message.
+
+Automation with Pagodo: Taking it to the Next Level
+
+Google Hacking Database (GHDB): A vast collection of Google Dorks and
+vulnerability reports from multiple tools.
+
+Cheatsheets and Guides: Detailed instructions and guides on how to use Google
+Dorking effectively.
+
+
+
+
+
+
+
+
+
+

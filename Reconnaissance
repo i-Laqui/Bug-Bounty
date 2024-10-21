@@ -3,7 +3,7 @@ Directory Brute force and Finding Subdomains
   • Gobuster
   • Feroxbuster
   • Google docking
-  • Katana - web crawling
+  • Katana - web crawling (https://hackviser.com/tactics/tools/katana)
   • Sub finder link: https://github.com/projectdiscovery/subfinder.git
   • Amass link: https://github.com/owasp-amass/amass.git
   • Crt.sh link: https://github.com/az7rb/crt.sh
